@@ -1,0 +1,91 @@
+const Map<String, String> enStrings = {
+  // App
+  'appName': 'Quotezia',
+
+  // Navigation
+  'home': 'Home',
+  'categories': 'Categories',
+  'favorites': 'Favorites',
+  'settings': 'Settings',
+  'premium': 'Premium',
+
+  // Actions
+  'share': 'Share',
+  'copy': 'Copy',
+  'addToFavorites': 'Add to Favorites',
+  'removeFromFavorites': 'Remove from Favorites',
+
+  // Settings
+  'darkMode': 'Dark Mode',
+  'lightMode': 'Light Mode',
+  'language': 'Language',
+  'notifications': 'Notifications',
+  'rateApp': 'Rate App',
+  'privacyPolicy': 'Privacy Policy',
+  'termsOfService': 'Terms of Service',
+  'about': 'About',
+  'appearance': 'Appearance',
+  'notificationsSection': 'Notifications',
+  'enableNotifications': 'Enable Notifications',
+  'notificationTime': 'Notification Time',
+  'dailyReminder': 'Daily Reminder',
+  'premiumSection': 'Premium',
+  'removeAds': 'Remove Ads',
+  'removeAdsDescription': 'Enjoy ad-free experience',
+  'appSection': 'App',
+  'shareApp': 'Share App',
+  'shareAppDescription': 'Share Quotezia with friends',
+  'contactUs': 'Contact Us',
+  'contactUsDescription': 'Send us your feedback',
+  'infoSection': 'Information',
+  'version': 'Version',
+  'madeWithLove': 'Made with love',
+  'selectTime': 'Select Time',
+  'cancel': 'Cancel',
+  'ok': 'OK',
+  'deletedFromFavorites': 'Removed from favorites',
+  'undo': 'Undo',
+  'swipeToDelete': 'Swipe left to delete',
+  'noFavoritesTitle': 'No favorites yet',
+  'noFavoritesSubtitle': 'Start adding quotes you love!',
+
+  // Premium
+  'unlockPremium': 'Unlock Premium',
+  'restorePurchases': 'Restore Purchases',
+  'monthly': 'Monthly',
+  'yearly': 'Yearly',
+  'lifetime': 'Lifetime',
+  'adFreeExperience': 'Ad-Free Experience',
+  'adFreeDescription': 'Enjoy quotes without any interruptions',
+  'unlimitedQuotes': 'Unlimited Quotes',
+  'unlimitedQuotesDescription': 'Access our entire collection of quotes',
+  'customNotifications': 'Custom Notifications',
+  'customNotificationsDescription': 'Set personalized daily quote reminders',
+  'exclusiveCategories': 'Exclusive Categories',
+  'exclusiveCategoriesDescription': 'Unlock premium quote categories',
+  'perMonth': '/month',
+  'perYear': '/year',
+  'oneTime': 'one-time',
+  'popular': 'POPULAR',
+  'save44': 'Save 44%',
+
+  // Messages
+  'noFavorites': 'No favorites yet',
+  'copiedToClipboard': 'Copied to clipboard',
+
+  // Home
+  'quoteOfTheDay': 'Quote of the Day',
+  'next': 'Next',
+  'quotes': 'Quotes',
+  'deleteFromFavorites': 'Remove',
+
+  // Categories
+  'motivation': 'Motivation',
+  'love': 'Love',
+  'life': 'Life',
+  'wisdom': 'Wisdom',
+  'success': 'Success',
+  'friendship': 'Friendship',
+  'faith': 'Faith',
+  'happiness': 'Happiness',
+};

@@ -1,0 +1,91 @@
+const Map<String, String> arStrings = {
+  // App
+  'appName': 'كوتيزيا',
+
+  // Navigation
+  'home': 'الرئيسية',
+  'categories': 'التصنيفات',
+  'favorites': 'المفضلة',
+  'settings': 'الإعدادات',
+  'premium': 'بريميوم',
+
+  // Actions
+  'share': 'مشاركة',
+  'copy': 'نسخ',
+  'addToFavorites': 'إضافة للمفضلة',
+  'removeFromFavorites': 'إزالة من المفضلة',
+
+  // Settings
+  'darkMode': 'الوضع الداكن',
+  'lightMode': 'الوضع الفاتح',
+  'language': 'اللغة',
+  'notifications': 'الإشعارات',
+  'rateApp': 'تقييم التطبيق',
+  'privacyPolicy': 'سياسة الخصوصية',
+  'termsOfService': 'شروط الخدمة',
+  'about': 'حول التطبيق',
+  'appearance': 'المظهر',
+  'notificationsSection': 'الإشعارات',
+  'enableNotifications': 'تفعيل الإشعارات',
+  'notificationTime': 'وقت الإشعار',
+  'dailyReminder': 'التذكير اليومي',
+  'premiumSection': 'النسخة المميزة',
+  'removeAds': 'إزالة الإعلانات',
+  'removeAdsDescription': 'استمتع بتجربة بدون إعلانات',
+  'appSection': 'التطبيق',
+  'shareApp': 'مشاركة التطبيق',
+  'shareAppDescription': 'شارك كوتيزيا مع أصدقائك',
+  'contactUs': 'اتصل بنا',
+  'contactUsDescription': 'أرسل لنا ملاحظاتك',
+  'infoSection': 'المعلومات',
+  'version': 'الإصدار',
+  'madeWithLove': 'صُنع بحب',
+  'selectTime': 'اختر الوقت',
+  'cancel': 'إلغاء',
+  'ok': 'موافق',
+  'deletedFromFavorites': 'تم الحذف من المفضلة',
+  'undo': 'تراجع',
+  'swipeToDelete': 'اسحب لليسار للحذف',
+  'noFavoritesTitle': 'لا توجد مفضلات بعد',
+  'noFavoritesSubtitle': 'ابدأ بإضافة الاقتباسات التي تحبها!',
+
+  // Premium
+  'unlockPremium': 'فتح النسخة المميزة',
+  'restorePurchases': 'استعادة المشتريات',
+  'monthly': 'شهري',
+  'yearly': 'سنوي',
+  'lifetime': 'مدى الحياة',
+  'adFreeExperience': 'بدون إعلانات',
+  'adFreeDescription': 'استمتع بالاقتباسات بدون أي انقطاع',
+  'unlimitedQuotes': 'اقتباسات غير محدودة',
+  'unlimitedQuotesDescription': 'الوصول إلى مجموعتنا الكاملة من الاقتباسات',
+  'customNotifications': 'إشعارات مخصصة',
+  'customNotificationsDescription': 'اضبط تذكيرات يومية مخصصة للاقتباسات',
+  'exclusiveCategories': 'تصنيفات حصرية',
+  'exclusiveCategoriesDescription': 'افتح تصنيفات الاقتباسات المميزة',
+  'perMonth': '/شهرياً',
+  'perYear': '/سنوياً',
+  'oneTime': 'دفعة واحدة',
+  'popular': 'الأكثر شعبية',
+  'save44': 'وفر 44%',
+
+  // Messages
+  'noFavorites': 'لا توجد مفضلات بعد',
+  'copiedToClipboard': 'تم النسخ',
+
+  // Home
+  'quoteOfTheDay': 'اقتباس اليوم',
+  'next': 'التالي',
+  'quotes': 'اقتباسات',
+  'deleteFromFavorites': 'حذف',
+
+  // Categories
+  'motivation': 'تحفيز',
+  'love': 'حب',
+  'life': 'حياة',
+  'wisdom': 'حكمة',
+  'success': 'نجاح',
+  'friendship': 'صداقة',
+  'faith': 'إيمان',
+  'happiness': 'سعادة',
+};
