@@ -11,9 +11,9 @@ class AppStrings {
   static const String playStoreUrl = 'https://play.google.com/store/apps/details?id=com.mohammedabdullah.quotezia';
 
   // Social Links
-  static const String privacyPolicyUrl = 'https://sites.google.com/view/quotezia-privacy';
-  static const String termsOfServiceUrl = 'https://sites.google.com/view/quotezia-terms';
-  static const String supportEmail = 'support@quotezia.com';
+  static const String privacyPolicyUrl = 'https://vip1981111.github.io/quotezia/privacy-policy.html';
+  static const String termsOfServiceUrl = 'https://vip1981111.github.io/quotezia/terms-of-service.html';
+  static const String supportEmail = 'vip1981.1@gmail.com';
 
   // Storage Keys
   static const String themeKey = 'theme_mode';
