@@ -9,16 +9,16 @@ class AdIds {
   static const String _testRewardedAndroid = 'ca-app-pub-3940256099942544/5224354917';
   static const String _testRewardedIOS = 'ca-app-pub-3940256099942544/1712485313';
 
-  // Production Ad IDs (replace with your actual Ad Unit IDs)
-  static const String _prodBannerAndroid = 'ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX';
-  static const String _prodBannerIOS = 'ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX';
-  static const String _prodInterstitialAndroid = 'ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX';
-  static const String _prodInterstitialIOS = 'ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX';
-  static const String _prodRewardedAndroid = 'ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX';
-  static const String _prodRewardedIOS = 'ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX';
+  // Production Ad IDs
+  static const String _prodBannerAndroid = 'ca-app-pub-2246849300811913/6726530103';
+  static const String _prodBannerIOS = 'ca-app-pub-2246849300811913/6902624076';
+  static const String _prodInterstitialAndroid = 'ca-app-pub-2246849300811913/3825034592';
+  static const String _prodInterstitialIOS = 'ca-app-pub-2246849300811913/9077361275';
+  static const String _prodRewardedAndroid = 'ca-app-pub-2246849300811913/2811335820';
+  static const String _prodRewardedIOS = 'ca-app-pub-2246849300811913/6918101793';
 
   // Set to false for production
-  static const bool _useTestAds = true;
+  static const bool _useTestAds = false;
 
   // Banner Ad ID
   static String get bannerId {
