@@ -48,7 +48,7 @@ class AppLocalizations {
   String get wisdom => _localizedValues[locale.languageCode]!['wisdom']!;
   String get success => _localizedValues[locale.languageCode]!['success']!;
   String get friendship => _localizedValues[locale.languageCode]!['friendship']!;
-  String get faith => _localizedValues[locale.languageCode]!['faith']!;
+  String get science => _localizedValues[locale.languageCode]!['science']!;
   String get happiness => _localizedValues[locale.languageCode]!['happiness']!;
   String get restorePurchases => _localizedValues[locale.languageCode]!['restorePurchases']!;
   String get monthly => _localizedValues[locale.languageCode]!['monthly']!;

@@ -100,7 +100,7 @@ enum QuoteCategory {
   wisdom,
   success,
   friendship,
-  faith,
+  science,
   happiness,
 }
 
@@ -119,8 +119,8 @@ extension QuoteCategoryExtension on QuoteCategory {
         return 'success';
       case QuoteCategory.friendship:
         return 'friendship';
-      case QuoteCategory.faith:
-        return 'faith';
+      case QuoteCategory.science:
+        return 'science';
       case QuoteCategory.happiness:
         return 'happiness';
     }

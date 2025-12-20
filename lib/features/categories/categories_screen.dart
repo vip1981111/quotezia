@@ -43,10 +43,10 @@ class CategoriesScreen extends StatelessWidget {
         category: QuoteCategory.life,
       ),
       _CategoryItem(
-        title: l10n.faith,
-        icon: Icons.auto_awesome,
-        color: AppColors.categoryFaith,
-        category: QuoteCategory.faith,
+        title: l10n.science,
+        icon: Icons.science,
+        color: AppColors.categoryScience,
+        category: QuoteCategory.science,
       ),
       _CategoryItem(
         title: l10n.love,

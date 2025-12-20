@@ -86,6 +86,6 @@ const Map<String, String> enStrings = {
   'wisdom': 'Wisdom',
   'success': 'Success',
   'friendship': 'Friendship',
-  'faith': 'Faith',
+  'science': 'Science',
   'happiness': 'Happiness',
 };

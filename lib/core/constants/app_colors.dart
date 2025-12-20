@@ -38,6 +38,6 @@ class AppColors {
   static const Color categoryWisdom = Color(0xFFF59E0B);
   static const Color categorySuccess = Color(0xFF8B5CF6);
   static const Color categoryFriendship = Color(0xFF14B8A6);
-  static const Color categoryFaith = Color(0xFF06B6D4);
+  static const Color categoryScience = Color(0xFF06B6D4);
   static const Color categoryHappiness = Color(0xFFF97316);
 }

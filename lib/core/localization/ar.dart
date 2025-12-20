@@ -86,6 +86,6 @@ const Map<String, String> arStrings = {
   'wisdom': 'حكمة',
   'success': 'نجاح',
   'friendship': 'صداقة',
-  'faith': 'إيمان',
+  'science': 'علم',
   'happiness': 'سعادة',
 };
