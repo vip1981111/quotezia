@@ -1,8 +1,8 @@
 import '../models/quote_model.dart';
 
-/// 150 Real English quotes from famous people
+/// 150 English quotes from scientists, philosophers, entrepreneurs, and thinkers
 final List<Quote> englishQuotes = [
-  // MOTIVATION (20 quotes)
+  // MOTIVATION (19 quotes)
   Quote(
     id: 'en_mot_001',
     text: 'The only way to do great work is to love what you do.',
@@ -21,7 +21,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_mot_003',
-    text: 'Believe you can and you\'re halfway there.',
+    text: 'Believe you can and you are halfway there.',
     textAr: 'آمن بأنك تستطيع وستكون قد قطعت نصف الطريق.',
     author: 'Theodore Roosevelt',
     authorAr: 'ثيودور روزفلت',
@@ -45,7 +45,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_mot_006',
-    text: 'Your time is limited, don\'t waste it living someone else\'s life.',
+    text: 'Your time is limited, do not waste it living someone else\'s life.',
     textAr: 'وقتك محدود، فلا تضيعه في عيش حياة شخص آخر.',
     author: 'Steve Jobs',
     authorAr: 'ستيف جوبز',
@@ -61,7 +61,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_mot_008',
-    text: 'Don\'t watch the clock; do what it does. Keep going.',
+    text: 'Do not watch the clock; do what it does. Keep going.',
     textAr: 'لا تراقب الساعة؛ افعل ما تفعله. استمر في المضي.',
     author: 'Sam Levenson',
     authorAr: 'سام ليفنسون',
@@ -69,7 +69,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_mot_009',
-    text: 'Everything you\'ve ever wanted is on the other side of fear.',
+    text: 'Everything you have ever wanted is on the other side of fear.',
     textAr: 'كل ما أردته دائماً موجود على الجانب الآخر من الخوف.',
     author: 'George Addair',
     authorAr: 'جورج أدير',
@@ -125,7 +125,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_mot_016',
-    text: 'I have not failed. I\'ve just found 10,000 ways that won\'t work.',
+    text: 'I have not failed. I have just found 10,000 ways that will not work.',
     textAr: 'لم أفشل. لقد وجدت فقط 10,000 طريقة لا تعمل.',
     author: 'Thomas Edison',
     authorAr: 'توماس إديسون',
@@ -149,14 +149,6 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_mot_019',
-    text: 'Don\'t be pushed around by the fears in your mind. Be led by the dreams in your heart.',
-    textAr: 'لا تدع مخاوف عقلك تسيطر عليك. دع أحلام قلبك تقودك.',
-    author: 'Roy T. Bennett',
-    authorAr: 'روي تي بينيت',
-    category: 'motivation',
-  ),
-  Quote(
-    id: 'en_mot_020',
     text: 'Hardships often prepare ordinary people for an extraordinary destiny.',
     textAr: 'الصعوبات غالباً ما تهيئ الناس العاديين لمصير استثنائي.',
     author: 'C.S. Lewis',
@@ -164,7 +156,7 @@ final List<Quote> englishQuotes = [
     category: 'motivation',
   ),
 
-  // SUCCESS (20 quotes)
+  // SUCCESS (19 quotes)
   Quote(
     id: 'en_suc_001',
     text: 'Success usually comes to those who are too busy to be looking for it.',
@@ -175,7 +167,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_suc_002',
-    text: 'Don\'t be afraid to give up the good to go for the great.',
+    text: 'Do not be afraid to give up the good to go for the great.',
     textAr: 'لا تخف من التخلي عن الجيد للحصول على العظيم.',
     author: 'John D. Rockefeller',
     authorAr: 'جون دي روكفلر',
@@ -215,7 +207,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_suc_007',
-    text: 'Opportunities don\'t happen. You create them.',
+    text: 'Opportunities do not happen. You create them.',
     textAr: 'الفرص لا تحدث. أنت تصنعها.',
     author: 'Chris Grosser',
     authorAr: 'كريس غروسر',
@@ -247,7 +239,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_suc_011',
-    text: 'Don\'t let yesterday take up too much of today.',
+    text: 'Do not let yesterday take up too much of today.',
     textAr: 'لا تدع الأمس يأخذ الكثير من اليوم.',
     author: 'Will Rogers',
     authorAr: 'ويل روجرز',
@@ -255,7 +247,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_suc_012',
-    text: 'You learn more from failure than from success. Don\'t let it stop you.',
+    text: 'You learn more from failure than from success. Do not let it stop you.',
     textAr: 'تتعلم من الفشل أكثر من النجاح. لا تدعه يوقفك.',
     author: 'Unknown',
     authorAr: 'مجهول',
@@ -295,7 +287,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_suc_017',
-    text: 'If you really want to do something, you\'ll find a way. If you don\'t, you\'ll find an excuse.',
+    text: 'If you really want to do something, you will find a way. If you do not, you will find an excuse.',
     textAr: 'إذا كنت تريد حقاً فعل شيء، ستجد طريقة. وإن لم تكن، ستجد عذراً.',
     author: 'Jim Rohn',
     authorAr: 'جيم رون',
@@ -311,14 +303,6 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_suc_019',
-    text: 'All progress takes place outside the comfort zone.',
-    textAr: 'كل التقدم يحدث خارج منطقة الراحة.',
-    author: 'Michael John Bobak',
-    authorAr: 'مايكل جون بوباك',
-    category: 'success',
-  ),
-  Quote(
-    id: 'en_suc_020',
     text: 'The way to get started is to quit talking and begin doing.',
     textAr: 'طريقة البدء هي التوقف عن الكلام والبدء في العمل.',
     author: 'Walt Disney',
@@ -326,7 +310,7 @@ final List<Quote> englishQuotes = [
     category: 'success',
   ),
 
-  // WISDOM (20 quotes)
+  // WISDOM (19 quotes)
   Quote(
     id: 'en_wis_001',
     text: 'The only true wisdom is in knowing you know nothing.',
@@ -355,8 +339,8 @@ final List<Quote> englishQuotes = [
     id: 'en_wis_004',
     text: 'The mind is everything. What you think you become.',
     textAr: 'العقل هو كل شيء. ما تفكر به تصبحه.',
-    author: 'Buddha',
-    authorAr: 'بوذا',
+    author: 'Marcus Aurelius',
+    authorAr: 'ماركوس أوريليوس',
     category: 'wisdom',
   ),
   Quote(
@@ -377,7 +361,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_wis_007',
-    text: 'Life is what happens when you\'re busy making other plans.',
+    text: 'Life is what happens when you are busy making other plans.',
     textAr: 'الحياة هي ما يحدث عندما تكون مشغولاً بوضع خطط أخرى.',
     author: 'John Lennon',
     authorAr: 'جون لينون',
@@ -449,10 +433,10 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_wis_016',
-    text: 'Patience is the companion of wisdom.',
-    textAr: 'الصبر رفيق الحكمة.',
-    author: 'Saint Augustine',
-    authorAr: 'القديس أوغسطين',
+    text: 'Patience and perseverance have a magical effect.',
+    textAr: 'للصبر والمثابرة تأثير سحري.',
+    author: 'John Quincy Adams',
+    authorAr: 'جون كوينسي آدامز',
     category: 'wisdom',
   ),
   Quote(
@@ -479,16 +463,8 @@ final List<Quote> englishQuotes = [
     authorAr: 'أرسطو',
     category: 'wisdom',
   ),
-  Quote(
-    id: 'en_wis_020',
-    text: 'The measure of intelligence is the ability to change.',
-    textAr: 'مقياس الذكاء هو القدرة على التغيير.',
-    author: 'Albert Einstein',
-    authorAr: 'ألبرت أينشتاين',
-    category: 'wisdom',
-  ),
 
-  // LIFE (20 quotes)
+  // LIFE (19 quotes)
   Quote(
     id: 'en_lif_001',
     text: 'Life is 10% what happens to us and 90% how we react to it.',
@@ -515,7 +491,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_lif_004',
-    text: 'In three words I can sum up everything I\'ve learned about life: it goes on.',
+    text: 'In three words I can sum up everything I have learned about life: it goes on.',
     textAr: 'في ثلاث كلمات أستطيع تلخيص كل ما تعلمته عن الحياة: إنها تستمر.',
     author: 'Robert Frost',
     authorAr: 'روبرت فروست',
@@ -542,15 +518,15 @@ final List<Quote> englishQuotes = [
     text: 'Life is what we make it, always has been, always will be.',
     textAr: 'الحياة هي ما نصنعها، كانت دائماً كذلك، وستبقى كذلك.',
     author: 'Grandma Moses',
-    authorAr: 'جدتي موسى',
+    authorAr: 'الجدة موسى',
     category: 'life',
   ),
   Quote(
     id: 'en_lif_008',
     text: 'Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.',
     textAr: 'لا تعش في الماضي، لا تحلم بالمستقبل، ركز عقلك على اللحظة الحالية.',
-    author: 'Buddha',
-    authorAr: 'بوذا',
+    author: 'Seneca',
+    authorAr: 'سينيكا',
     category: 'life',
   ),
   Quote(
@@ -611,7 +587,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_lif_016',
-    text: 'Life isn\'t about finding yourself. Life is about creating yourself.',
+    text: 'Life is not about finding yourself. Life is about creating yourself.',
     textAr: 'الحياة ليست عن إيجاد نفسك. الحياة عن خلق نفسك.',
     author: 'George Bernard Shaw',
     authorAr: 'جورج برنارد شو',
@@ -641,16 +617,8 @@ final List<Quote> englishQuotes = [
     authorAr: 'هنري ديفيد ثورو',
     category: 'life',
   ),
-  Quote(
-    id: 'en_lif_020',
-    text: 'Life is a journey that must be traveled no matter how bad the roads and accommodations.',
-    textAr: 'الحياة رحلة يجب أن تُسافر بغض النظر عن سوء الطرق والإقامات.',
-    author: 'Oliver Goldsmith',
-    authorAr: 'أوليفر غولدسميث',
-    category: 'life',
-  ),
 
-  // SCIENCE (20 quotes) - Replaced Faith
+  // SCIENCE (19 quotes)
   Quote(
     id: 'en_sci_001',
     text: 'Imagination is more important than knowledge.',
@@ -704,12 +672,12 @@ final List<Quote> englishQuotes = [
     text: 'An investment in knowledge pays the best interest.',
     textAr: 'الاستثمار في المعرفة يدفع أفضل فائدة.',
     author: 'Benjamin Franklin',
-    authorAr: 'بنيامين فرانكلين',
+    authorAr: 'بنجامين فرانكلين',
     category: 'science',
   ),
   Quote(
     id: 'en_sci_008',
-    text: 'Research is what I\'m doing when I don\'t know what I\'m doing.',
+    text: 'Research is what I am doing when I do not know what I am doing.',
     textAr: 'البحث هو ما أفعله عندما لا أعرف ما أفعله.',
     author: 'Wernher von Braun',
     authorAr: 'فيرنر فون براون',
@@ -717,7 +685,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_sci_009',
-    text: 'The scientist is not a person who gives the right answers, he\'s one who asks the right questions.',
+    text: 'The scientist is not a person who gives the right answers, he is one who asks the right questions.',
     textAr: 'العالم ليس من يعطي الإجابات الصحيحة، بل من يطرح الأسئلة الصحيحة.',
     author: 'Claude Levi-Strauss',
     authorAr: 'كلود ليفي ستراوس',
@@ -749,7 +717,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_sci_013',
-    text: 'The good thing about science is that it\'s true whether or not you believe in it.',
+    text: 'The good thing about science is that it is true whether or not you believe in it.',
     textAr: 'الشيء الجيد في العلم أنه صحيح سواء آمنت به أم لا.',
     author: 'Neil deGrasse Tyson',
     authorAr: 'نيل ديغراس تايسون',
@@ -765,7 +733,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_sci_015',
-    text: 'I think it\'s possible for ordinary people to choose to be extraordinary.',
+    text: 'I think it is possible for ordinary people to choose to be extraordinary.',
     textAr: 'أعتقد أنه من الممكن للناس العاديين أن يختاروا أن يكونوا استثنائيين.',
     author: 'Elon Musk',
     authorAr: 'إيلون ماسك',
@@ -773,7 +741,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_sci_016',
-    text: 'The advance of technology is based on making it fit in so that you don\'t really even notice it.',
+    text: 'The advance of technology is based on making it fit in so that you do not really even notice it.',
     textAr: 'تقدم التكنولوجيا يعتمد على جعلها تندمج بحيث لا تلاحظها حقاً.',
     author: 'Bill Gates',
     authorAr: 'بيل غيتس',
@@ -797,14 +765,6 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_sci_019',
-    text: 'The only source of knowledge is experience.',
-    textAr: 'المصدر الوحيد للمعرفة هو التجربة.',
-    author: 'Albert Einstein',
-    authorAr: 'ألبرت أينشتاين',
-    category: 'science',
-  ),
-  Quote(
-    id: 'en_sci_020',
     text: 'Failure is an option here. If things are not failing, you are not innovating enough.',
     textAr: 'الفشل خيار هنا. إذا لم تكن الأشياء تفشل، فأنت لا تبتكر بما فيه الكفاية.',
     author: 'Elon Musk',
@@ -812,7 +772,7 @@ final List<Quote> englishQuotes = [
     category: 'science',
   ),
 
-  // LOVE (20 quotes)
+  // LOVE (19 quotes)
   Quote(
     id: 'en_lov_001',
     text: 'The best thing to hold onto in life is each other.',
@@ -863,7 +823,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_lov_007',
-    text: 'Love is not about how many days, months, or years you have been together. It\'s about how much you love each other every day.',
+    text: 'Love is not about how many days, months, or years you have been together. It is about how much you love each other every day.',
     textAr: 'الحب ليس عن عدد الأيام أو الأشهر أو السنوات التي قضيتموها معاً. إنه عن مقدار حبكم لبعضكم كل يوم.',
     author: 'Unknown',
     authorAr: 'مجهول',
@@ -890,23 +850,23 @@ final List<Quote> englishQuotes = [
     text: 'Love is when the other person\'s happiness is more important than your own.',
     textAr: 'الحب هو عندما تكون سعادة الشخص الآخر أهم من سعادتك.',
     author: 'H. Jackson Brown Jr.',
-    authorAr: 'إتش جاكسون براون جونيور',
+    authorAr: 'إتش جاكسون براون',
     category: 'love',
   ),
   Quote(
     id: 'en_lov_011',
-    text: 'Love recognizes no barriers. It jumps hurdles, leaps fences, penetrates walls to arrive at its destination full of hope.',
-    textAr: 'الحب لا يعترف بأي حواجز. يقفز العقبات، يتخطى الأسوار، يخترق الجدران ليصل إلى وجهته مليئاً بالأمل.',
+    text: 'Love recognizes no barriers.',
+    textAr: 'الحب لا يعترف بأي حواجز.',
     author: 'Maya Angelou',
     authorAr: 'مايا أنجيلو',
     category: 'love',
   ),
   Quote(
     id: 'en_lov_012',
-    text: 'You know you\'re in love when you can\'t fall asleep because reality is finally better than your dreams.',
+    text: 'You know you are in love when you cannot fall asleep because reality is finally better than your dreams.',
     textAr: 'تعرف أنك في حب عندما لا تستطيع النوم لأن الواقع أخيراً أفضل من أحلامك.',
     author: 'Dr. Seuss',
-    authorAr: 'د. سوس',
+    authorAr: 'دكتور سوس',
     category: 'love',
   ),
   Quote(
@@ -927,7 +887,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_lov_015',
-    text: 'Love doesn\'t make the world go round. Love is what makes the ride worthwhile.',
+    text: 'Love does not make the world go round. Love is what makes the ride worthwhile.',
     textAr: 'الحب لا يجعل العالم يدور. الحب هو ما يجعل الرحلة تستحق.',
     author: 'Franklin P. Jones',
     authorAr: 'فرانكلين بي جونز',
@@ -959,22 +919,14 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_lov_019',
-    text: 'The heart has its reasons of which reason knows nothing.',
-    textAr: 'للقلب أسبابه التي لا يعرفها العقل.',
-    author: 'Blaise Pascal',
-    authorAr: 'بليز باسكال',
-    category: 'love',
-  ),
-  Quote(
-    id: 'en_lov_020',
-    text: 'The greatest thing you\'ll ever learn is just to love and be loved in return.',
+    text: 'The greatest thing you will ever learn is just to love and be loved in return.',
     textAr: 'أعظم شيء ستتعلمه هو أن تحب وتُحَب في المقابل.',
     author: 'Eden Ahbez',
     authorAr: 'إيدن أحبز',
     category: 'love',
   ),
 
-  // HAPPINESS (15 quotes)
+  // HAPPINESS (18 quotes)
   Quote(
     id: 'en_hap_001',
     text: 'Happiness is not something ready made. It comes from your own actions.',
@@ -985,7 +937,7 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_hap_002',
-    text: 'The happiest people don\'t have the best of everything, they make the best of everything.',
+    text: 'The happiest people do not have the best of everything, they make the best of everything.',
     textAr: 'أسعد الناس ليس لديهم أفضل كل شيء، بل يستفيدون من كل شيء.',
     author: 'Unknown',
     authorAr: 'مجهول',
@@ -1095,8 +1047,32 @@ final List<Quote> englishQuotes = [
     authorAr: 'آن فرانك',
     category: 'happiness',
   ),
+  Quote(
+    id: 'en_hap_016',
+    text: 'Happiness is not the absence of problems, it is the ability to deal with them.',
+    textAr: 'السعادة ليست غياب المشاكل، بل القدرة على التعامل معها.',
+    author: 'Steve Maraboli',
+    authorAr: 'ستيف مارابولي',
+    category: 'happiness',
+  ),
+  Quote(
+    id: 'en_hap_017',
+    text: 'The most important thing is to enjoy your life, to be happy.',
+    textAr: 'أهم شيء هو أن تستمتع بحياتك، أن تكون سعيداً.',
+    author: 'Audrey Hepburn',
+    authorAr: 'أودري هيبورن',
+    category: 'happiness',
+  ),
+  Quote(
+    id: 'en_hap_018',
+    text: 'Happiness often sneaks in through a door you did not know you left open.',
+    textAr: 'السعادة غالباً ما تتسلل من باب لم تكن تعلم أنك تركته مفتوحاً.',
+    author: 'John Barrymore',
+    authorAr: 'جون باريمور',
+    category: 'happiness',
+  ),
 
-  // FRIENDSHIP (15 quotes)
+  // FRIENDSHIP (18 quotes)
   Quote(
     id: 'en_fri_001',
     text: 'A friend is someone who knows all about you and still loves you.',
@@ -1107,8 +1083,8 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_fri_002',
-    text: 'Friendship is born at that moment when one person says to another: "What! You too? I thought I was the only one."',
-    textAr: 'تولد الصداقة في تلك اللحظة عندما يقول شخص لآخر: "ماذا! أنت أيضاً؟ ظننت أنني الوحيد."',
+    text: 'Friendship is born at that moment when one person says to another: What! You too? I thought I was the only one.',
+    textAr: 'تولد الصداقة في تلك اللحظة عندما يقول شخص لآخر: ماذا! أنت أيضاً؟ ظننت أنني الوحيد.',
     author: 'C.S. Lewis',
     authorAr: 'سي إس لويس',
     category: 'friendship',
@@ -1163,10 +1139,10 @@ final List<Quote> englishQuotes = [
   ),
   Quote(
     id: 'en_fri_009',
-    text: 'Friendship is the hardest thing in the world to explain. It\'s not something you learn in school.',
+    text: 'Friendship is the hardest thing in the world to explain. It is not something you learn in school.',
     textAr: 'الصداقة هي أصعب شيء في العالم لشرحه. إنها ليست شيئاً تتعلمه في المدرسة.',
-    author: 'Muhammad Ali',
-    authorAr: 'محمد علي',
+    author: 'Oprah Winfrey',
+    authorAr: 'أوبرا وينفري',
     category: 'friendship',
   ),
   Quote(
@@ -1215,6 +1191,30 @@ final List<Quote> englishQuotes = [
     textAr: 'لا صداقة بالصدفة.',
     author: 'O. Henry',
     authorAr: 'أو. هنري',
+    category: 'friendship',
+  ),
+  Quote(
+    id: 'en_fri_016',
+    text: 'Friendship doubles your joy and divides your sorrow.',
+    textAr: 'الصداقة تضاعف فرحتك وتقسم حزنك.',
+    author: 'Swedish Proverb',
+    authorAr: 'مثل سويدي',
+    category: 'friendship',
+  ),
+  Quote(
+    id: 'en_fri_017',
+    text: 'The language of friendship is not words but meanings.',
+    textAr: 'لغة الصداقة ليست كلمات بل معاني.',
+    author: 'Henry David Thoreau',
+    authorAr: 'هنري ديفيد ثورو',
+    category: 'friendship',
+  ),
+  Quote(
+    id: 'en_fri_018',
+    text: 'A single rose can be my garden; a single friend, my world.',
+    textAr: 'وردة واحدة يمكن أن تكون حديقتي؛ صديق واحد، عالمي.',
+    author: 'Leo Buscaglia',
+    authorAr: 'ليو بوسكاليا',
     category: 'friendship',
   ),
 ];

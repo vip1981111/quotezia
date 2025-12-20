@@ -19,7 +19,7 @@ Map<String, int> getQuoteCountByCategory() {
     'success',
     'wisdom',
     'life',
-    'faith',
+    'science',
     'love',
     'happiness',
     'friendship',
