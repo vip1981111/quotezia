@@ -104,7 +104,7 @@ class QuoteRepository {
       'success',
       'wisdom',
       'life',
-      'faith',
+      'science',
       'love',
       'happiness',
       'friendship',

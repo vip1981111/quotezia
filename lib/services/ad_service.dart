@@ -10,6 +10,9 @@ class AdService {
   factory AdService() => _instance;
   AdService._internal();
 
+  // Set to true to hide ads for screenshots
+  static const bool hideAdsForScreenshots = true;
+
   BannerAd? _bannerAd;
   InterstitialAd? _interstitialAd;
   RewardedAd? _rewardedAd;
@@ -21,7 +24,7 @@ class AdService {
   int _quoteViewCount = 0;
   static const int _interstitialFrequency = 5;
 
-  bool get isBannerAdLoaded => _isBannerAdLoaded;
+  bool get isBannerAdLoaded => hideAdsForScreenshots ? false : _isBannerAdLoaded;
   bool get isInterstitialAdLoaded => _isInterstitialAdLoaded;
   bool get isRewardedAdLoaded => _isRewardedAdLoaded;
   BannerAd? get bannerAd => _bannerAd;
@@ -133,6 +136,7 @@ class AdService {
 
   // Show Interstitial Ad
   Future<bool> showInterstitialAd() async {
+    if (hideAdsForScreenshots) return false;
     if (!_isInterstitialAdLoaded || _interstitialAd == null) {
       debugPrint('AdService: Interstitial ad not ready');
       return false;
