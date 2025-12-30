@@ -11,7 +11,7 @@ class AdService {
   AdService._internal();
 
   // Set to true to hide ads for screenshots
-  static const bool hideAdsForScreenshots = true;
+  static const bool hideAdsForScreenshots = false;
 
   BannerAd? _bannerAd;
   InterstitialAd? _interstitialAd;

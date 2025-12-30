@@ -173,7 +173,7 @@ class SettingsScreen extends StatelessWidget {
 
                     const SizedBox(height: 24),
 
-                    // Premium Section Title
+                    // Premium Section
                     _SectionTitle(title: l10n.premiumSection, isDark: isDark)
                         .animate()
                         .fadeIn(delay: 350.ms),
